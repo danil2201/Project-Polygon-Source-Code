@@ -3,14 +3,21 @@ The source code is really good and pizza did a great job on it. Pizzaboxer dropp
 
 # Guide
 Connect to your server via SSH.
+
 Install Apache2 by executing the command:
+
 sudo apt install apache2
+
 If you are using Oracle, follow the instructions for installing Apache on Ubuntu using Oracle.
+
 Download the entire repository and copy the contents of the "website" folder.
+
 Navigate to the "api/private/" folder and open the "config.php" file.
+
 Inside the file, you will see the following code:
-php
-Copy code
+
+
+
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -40,9 +47,12 @@ define("SITE_CONFIG",
 		]
 ]);
 Change the names!
+
 Obtain the siteKey and privateKey for the captcha by following the Google reCAPTCHA v3 instructions.
+
 Insert the obtained siteKey and privateKey into the corresponding fields in the config.php file.
 Now your website is ready for use!
+
 
 # Proof that i am not bullshitting:
 ![Iamnotbullshitting](https://github.com/FlarfGithub/Project-Polygon-Source-Code/blob/main/proof.png?raw=true)
