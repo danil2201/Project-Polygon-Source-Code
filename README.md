@@ -18,7 +18,7 @@ Inside the file, you will see the following code:
 
 
 
-![Iamnotbullshitting](https://github.com/danil2201/Project-Polygon-Source-Code/blob/main/Website/api/private/config.php)
+![config.php](https://github.com/danil2201/Project-Polygon-Source-Code/blob/main/Website/api/private/config.php)
 
 Change the names!
 
